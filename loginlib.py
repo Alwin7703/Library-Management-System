@@ -15,6 +15,21 @@ def signin():
     password=code.get()
     if username=='admin' and password=='1234':
         call(["python", "e:\MINI PROJECT\Library1.py"])
+
+    elif username=='alwin' and password=='1001':
+        call(["python", "e:\MINI PROJECT\Library1.py"])
+
+    elif username=='naman' and password=='1002':
+        call(["python", "e:\MINI PROJECT\Library1.py"])
+    
+    elif username=='rishi' and password=='1003':
+        call(["python", "e:\MINI PROJECT\Library1.py"])
+
+    elif username=='saloni' and password=='1004':
+        call(["python", "e:\MINI PROJECT\Library1.py"]) 
+
+    else:
+        messagebox.showerror("Invalid","invalid username and password")
         
 
 
